@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>ST Resume</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Spectral" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+
+  <header class="center">
+    <h1>Shirley Tang</h1>
+</header>
+
+<div class="container">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="work.html">Experience</a>
+    <a href="skills.html">Skills</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!-- Use any element to open the sidenav -->
+
+  <h1><span style="font-size:30px;cursor:pointer" onclick="openNav();">&#9776; About me</span><h1>
+<style>
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%;
+    font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  text-align:left;
+}
+
+.skills {
+    text-align: right;
+    padding-right: 20px;
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white;
+}
+
+.sage {width: 50%; background-color: #808080;} /* Green */
+.tax {width: 70%; background-color: #808080;} /* Blue */
+.wex {width: 70%; background-color: #808080;} /* Red */
+.avp {width: 50%; background-color: #808080;} /* Dark Grey */
+.web {width: 20%; background-color: #808080;} /* Dark Grey */
+</style>
+
+<div id="main">
+  <p>Accounting Software: SAGE 50, Caseware, Avantage</p>
+  <div class="container">
+    <div class="skills sage">50%</div>
+  </div>
+
+  <p>Tax Software: Taxprep</p>
+  <div class="container">
+    <div class="skills tax">70%</div>
+  </div>
+
+  <p>Microsoft: Word and Excel</p>
+  <div class="container">
+    <div class="skills wex">70%</div>
+  </div>
+
+  <p>Microsoft: Access, Visio, Project</p>
+  <div class="container">
+    <div class="skills avp">50%</div>
+  </div>
+
+  <p>HTML, CSS/CSS3, and Javascript</p>
+  <div class="container">
+    <div class="skills web">20%</div>
+  </div>
+
+</div>
